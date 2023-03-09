@@ -1,7 +1,8 @@
 PATH
-  remote: ../../
+  remote: ../..
   specs:
     bugsnag (6.1.0)
+      concurrent-ruby (~> 1.0, < 1.1.10)
 
 GEM
   remote: https://rubygems.org/
@@ -89,7 +90,7 @@ GEM
     multi_json (1.12.2)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    rack (1.6.8)
+    rack (1.6.13)
     rack-protection (2.0.0)
       rack
     rack-test (0.6.3)
